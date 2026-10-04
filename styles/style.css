@@ -1,25 +1,4 @@
 /* ============================================================
-   ШРИФТЫ
-   ============================================================ */
-@font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
-       url('../fonts/Raleway-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
-       url('../fonts/Raleway-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ============================================================
    БАЗА
    ============================================================ */
 * {
@@ -27,7 +6,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   margin: 0;
   padding: 0;
   background-color: #ffffff;
@@ -425,11 +404,11 @@ a:hover {
 }
 
 /* ============================================================
-   ABOUT — логотип вровень с заголовком
+   ABOUT
    ============================================================ */
 .about {
   display: flex;
-  align-items: flex-start;      /* логотип и заголовок по верхнему краю */
+  align-items: flex-start;
   gap: 155px;
   padding: 155px 50px 80px 47px;
   width: 100%;
@@ -439,7 +418,7 @@ a:hover {
 
 .about-logo-wrapper {
   flex-shrink: 0;
-  margin-top: 0;                /* без сдвига — вровень с текстом */
+  margin-top: 0;
 }
 
 .merged-logo {
@@ -469,7 +448,6 @@ a:hover {
   max-width: 693px;
 }
 
-/* Заголовок без отступа сверху — вровень с логотипом */
 .about-content .section-title {
   margin-top: 0;
 }
@@ -586,8 +564,8 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 26px; 
-  height: 20px; 
+  width: 26px;
+  height: 20px;
 }
 
 @media (max-width: 768px) {
