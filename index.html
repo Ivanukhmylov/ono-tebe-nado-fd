@@ -4,32 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ОНО ТЕБЕ НАДО</title>
+  <link rel="stylesheet" href="styles/fonts.css" />
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
 
-  <section id="section-header">
-    <header class="header">
-      <nav class="header-nav">
-        <a href="#" class="header__link header__link_active">главная</a>
-        <span class="nav-dot" aria-hidden="true"></span>
-        <a href="#section-lots" class="header__link">посмотреть лоты</a>
-        <span class="nav-dot" aria-hidden="true"></span>
-        <a href="#section-about" class="header__link">об аукционе</a>
-      </nav>
-      <div class="header-logo">
-        <img src="images/55_88.svg" alt="ОНО ТЕБЕ НАДО" />
-      </div>
-      <div class="header-contact">
-        <a href="tel:+99995555555" class="underline">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="underline">info@sobaka.ge</a>
-        <span>наб. Принсенграхт 263- 265, Амстердам</span>
-      </div>
-    </header>
-  </section>
+  <header class="header">
+    <nav class="header-nav">
+      <a href="#" class="header__link header__link_active">главная</a>
+      <span class="nav-dot" aria-hidden="true"></span>
+      <a href="#section-lots" class="header__link">посмотреть лоты</a>
+      <span class="nav-dot" aria-hidden="true"></span>
+      <a href="#section-about" class="header__link">об аукционе</a>
+    </nav>
+    <a href="#" class="header-logo">
+      <img src="images/55_88.svg" alt="ОНО ТЕБЕ НАДО" />
+    </a>
+    <div class="header-contact">
+      <a href="tel:+99995555555" class="underline">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge" class="underline">info@sobaka.ge</a>
+      <span>наб. Принсенграхт 263- 265, Амстердам</span>
+    </div>
+  </header>
 
-  <section id="section-hero">
-    <div class="hero">
+  <main>
+
+    <section class="hero">
       <div class="hero-bg"></div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
@@ -43,11 +43,9 @@
           <button class="btn-primary">Сделать ставку</button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="section-lots">
-    <div class="lots">
+    <section id="section-lots" class="lots">
       <h2 class="section-title">Лоты</h2>
       <ul class="lots-grid">
         <li class="lot-card">
@@ -98,11 +96,9 @@
         </li>
       </ul>
       <a href="#" class="more-link underline">посмотреть больше</a>
-    </div>
-  </section>
+    </section>
 
-  <section id="section-about">
-    <div class="about">
+    <section id="section-about" class="about">
       <div class="about-logo-wrapper">
         <div class="merged-logo">
           <img src="images/55_40.svg" alt="circle" class="logo-circle" />
@@ -129,45 +125,44 @@
           </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="section-footer">
-    <footer class="footer">
-      <div class="footer-contact">
-        <a href="tel:+99995555555" class="underline">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="underline">info@sobaka.ge</a>
-        <span>наб. Принсенграхт 263-265, Амстердам</span>
-      </div>
-      <nav class="footer-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#" class="header__link header__link_active">главная</a>
-          </li>
-          <li class="nav-item">
-            <a href="#section-lots" class="header__link">посмотреть лоты</a>
-          </li>
-          <li class="nav-item">
-            <a href="#section-about" class="header__link">об аукционе</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer-socials">
-        <a href="#" class="social-link">
-          <div class="merged-social">
-            <img src="images/55_6.svg" alt="circle" class="social-circle" />
-            <img src="images/55_7.svg" alt="youtube" class="social-icon" />
-          </div>
-        </a>
-        <a href="#" class="social-link">
-          <img src="images/55_10.svg" alt="vk" />
-        </a>
-        <a href="#" class="social-link">
-          <img src="images/55_13.svg" alt="pinterest" />
-        </a>
-      </div>
-    </footer>
-  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contact">
+      <a href="tel:+99995555555" class="underline">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge" class="underline">info@sobaka.ge</a>
+      <span>наб. Принсенграхт 263-265, Амстердам</span>
+    </div>
+    <nav class="footer-nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="header__link header__link_active">главная</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-lots" class="header__link">посмотреть лоты</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-about" class="header__link">об аукционе</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer-socials">
+      <a href="#" class="social-link">
+        <div class="merged-social">
+          <img src="images/55_6.svg" alt="circle" class="social-circle" />
+          <img src="images/55_7.svg" alt="youtube" class="social-icon" />
+        </div>
+      </a>
+      <a href="#" class="social-link">
+        <img src="images/55_10.svg" alt="vk" />
+      </a>
+      <a href="#" class="social-link">
+        <img src="images/55_13.svg" alt="pinterest" />
+      </a>
+    </div>
+  </footer>
 
 </body>
 </html>
