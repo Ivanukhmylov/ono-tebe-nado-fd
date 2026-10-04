@@ -430,8 +430,8 @@ a:hover {
 .about {
   display: flex;
   align-items: flex-start;      /* логотип и заголовок по верхнему краю */
- gap: 76px;
-  padding: 35px 50px 80px 47px;
+  gap: 155px;
+  padding: 155px 50px 80px 47px;
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -439,7 +439,7 @@ a:hover {
 
 .about-logo-wrapper {
   flex-shrink: 0;
-  margin-top: 35;                /* без сдвига — вровень с текстом */
+  margin-top: 0;                /* без сдвига — вровень с текстом */
 }
 
 .merged-logo {
@@ -467,12 +467,11 @@ a:hover {
 .about-content {
   flex: 1;
   max-width: 693px;
-  margin-top: 133px;
 }
 
 /* Заголовок без отступа сверху — вровень с логотипом */
 .about-content .section-title {
-  margin-top: 133;
+  margin-top: 0;
 }
 
 .about-text p {
@@ -494,8 +493,7 @@ a:hover {
     margin-top: 0;
   }
   .about-content {
-  max-width: 100%;
-  
+    max-width: 100%;
   }
 }
 
@@ -588,8 +586,8 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 26px !important;
-  height: 20px !important;
+  width: 26px; 
+  height: 20px; 
 }
 
 @media (max-width: 768px) {
