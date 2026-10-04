@@ -472,7 +472,7 @@ a:hover {
 
 /* Заголовок без отступа сверху — вровень с логотипом */
 .about-content .section-title {
-  margin-top: 0;
+  margin-top: 133;
 }
 
 .about-text p {
