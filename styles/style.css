@@ -439,7 +439,7 @@ a:hover {
 
 .about-logo-wrapper {
   flex-shrink: 0;
-  margin-top: 0;                /* без сдвига — вровень с текстом */
+  margin-top: 35;                /* без сдвига — вровень с текстом */
 }
 
 .merged-logo {
