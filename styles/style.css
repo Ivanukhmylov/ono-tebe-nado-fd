@@ -1,13 +1,12 @@
 .header {
-  /* НУ, ПОЕХАЛИ)) */
   width: 1100px;
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; /* три колонки */
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 }
 
-.ul-menu { /* менюшка */
-  font-family: 'Raleway' , sans-serif;
+.ul-menu {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -24,13 +23,13 @@
 }
 
 .link-active {
-  list-style-type: none; /* минус подчеркинваие */
+  list-style-type: none;
   text-decoration: none;
 }
 
 .address {
   max-width: 240px;
-  font-family: 'Raleway' , sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -48,7 +47,7 @@
   height: 105px;
 }
 
-.cover { /*оно тебе надо */
+.cover {
   position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -60,7 +59,6 @@
 }
 
 .cover_title {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +68,7 @@
   color: #fff;
 }
 
-.overlay { /* затемнение */
+.overlay {
   top: 0;
   left: 0;
   right: 0;
@@ -89,18 +87,18 @@
   letter-spacing: 30px;
 }
 
-.aligned-text { /* оно */
+.aligned-text {
   align-self: flex-start;
   text-align: start;
 }
 
-.aligned-text_center { /* тебе */
+.aligned-text_center {
   padding-top: 22px;
   align-self: center;
   text-align: center;
 }
 
-.aligned-text_right { /*надо */
+.aligned-text_right {
   display: flex;
   align-self: flex-end;
   text-align: right;
@@ -117,17 +115,16 @@
   padding: 0px 10px 50px 8px;
   gap: 50px;
   word-spacing: 18px;
-  font-family: 'Raleway' , sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
   color: #FFFFFF;
-
 }
 
-.bet-button { /* сделать ставку */
+.bet-button {
   width: 256px;
   height: 51px;
   border: 1px solid white;
@@ -141,7 +138,6 @@
   text-transform: uppercase;
 }
 
-
 .title_lots {
   padding-top: 179px;
   padding-bottom: 26px;
@@ -152,7 +148,7 @@
   text-transform: uppercase;
 }
 
-.lots_div { /* */
+.lots_div {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -164,11 +160,11 @@
 }
 
 .card_lots a {
-  text-decoration: none; /* убрал подчеркивание */
+  text-decoration: none;
 }
 
 .card_lots {
-  max-width: 334px; 
+  max-width: 334px;
 }
 
 .card {
@@ -181,11 +177,10 @@
   background-position: center;
   justify-content: space-between;
   background-size: cover;
-  
 }
 
 .card_type_film {
-  background-image: url(./../images/card-lot-01.jpg); 
+  background-image: url(./../images/card-lot-01.jpg);
 }
 
 .card_type_book {
@@ -205,8 +200,6 @@
   padding-bottom: 29px;
 }
 
-
-
 .text_on_card {
   color: white;
   font-size: 20px;
@@ -216,9 +209,9 @@
   text-decoration: none;
 }
 
-.view_more {   /* посмотреть больше */
+.view_more {
   display: block;
-  text-underline-offset: 5px; /* отодвинуто подчеривание */
+  text-underline-offset: 5px;
   color: black;
   font-size: 20px;
   font-weight: 400;
@@ -226,7 +219,6 @@
   margin-left: 61px;
   margin-top: 33px;
 }
-
 
 .about {
   margin-top: 120px;
@@ -247,13 +239,13 @@
   height: 114px;
 }
 
-.about_logo { /*черный круг */
+.about_logo {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-self: center;
   background-color: #000;
-  border-radius: 50%;   /* закругление */
+  border-radius: 50%;
   width: 240px;
   height: 240px;
 }
@@ -295,10 +287,9 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: flex-start;
-
 }
 
-.footer__social-list { /*соцсети */
+.footer__social-list {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -327,13 +318,13 @@
   line-height: normal;
 }
 
-.footer_menu {  
+.footer_menu {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 0px;
   list-style-type: none;
-  font-family: 'Raleway' , sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -342,9 +333,5 @@
   color: #000000;
   padding-left: 0px;
   margin-top: 5px;
-  
   margin-right: 49px;
 }
-
-
-/* УРА ВСЕ ГОТОВО */
