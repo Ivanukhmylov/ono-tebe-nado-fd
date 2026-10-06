@@ -1,3 +1,53 @@
+/* ============================================================
+   БАЗА
+   ============================================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.underline-white {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #ffffff;
+}
+
+.nav-list,
+.lots-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ============================================================
+   MAIN
+   ============================================================ */
 main {
   display: flex;
   flex-direction: column;
@@ -9,6 +59,9 @@ main {
   margin: 0 auto;
 }
 
+/* ============================================================
+   HEADER
+   ============================================================ */
 .header {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
@@ -75,6 +128,9 @@ main {
   line-height: 1.35;
 }
 
+/* ============================================================
+   COVER (HERO)
+   ============================================================ */
 .cover {
   position: relative;
   padding: 165px 50px 50px 50px;
@@ -126,8 +182,6 @@ main {
   letter-spacing: 60px;
 }
 
-/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
-
 .remove-spacing {
   letter-spacing: normal;
 }
@@ -154,7 +208,7 @@ main {
   border: 1px #FFF solid;
   padding: 14px 32px;
   color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-weight: normal;
   font-size: 22px;
   line-height: 1;
@@ -168,6 +222,9 @@ main {
   background-color: #FFF;
 }
 
+/* ============================================================
+   LOTS
+   ============================================================ */
 .lots {
   padding: 0 50px;
 }
@@ -253,6 +310,9 @@ main {
   width: fit-content;
 }
 
+/* ============================================================
+   ABOUT
+   ============================================================ */
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -301,6 +361,9 @@ main {
   line-height: normal;
 }
 
+/* ============================================================
+   FOOTER
+   ============================================================ */
 .footer {
   display: flex;
   justify-content: space-between;
