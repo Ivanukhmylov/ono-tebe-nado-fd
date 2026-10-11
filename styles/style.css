@@ -1,26 +1,11 @@
-@font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
-       url('../fonts/Raleway-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
-       url('../fonts/Raleway-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+/* @font-face убраны — они уже подключены в fonts/fonts.css */
 
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1100px;
+  margin: 0 auto;
 }
 
 .ul-menu {
@@ -55,6 +40,10 @@
 .logo-head {
   width: 148px;
   height: 105px;
+}
+
+.logo-link {
+  display: inline-block;
 }
 
 .cover {
@@ -105,7 +94,6 @@
 .aligned-text_right {
   display: flex;
   align-self: flex-end;
-  justify-self: end;
   margin: 17px -10px -17px 0;
   text-align: right;
 }
@@ -129,10 +117,11 @@
   margin-left: 16px;
   border: 1px solid #fff;
   background-color: transparent;
-  font: 22px/51px "Raleway", sans-serif;
+  font: 22px/51px 'Raleway', sans-serif;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .title_lots {
@@ -174,15 +163,15 @@
 }
 
 .card_type_film {
-  background-image: url(./../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(./../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(./../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -261,7 +250,7 @@
   flex-direction: column;
   align-self: flex-start;
   justify-content: flex-start;
-  font: 20px/24px "Raleway", sans-serif;
+  font: 20px/24px 'Raleway', sans-serif;
   color: #000;
 }
 
@@ -274,7 +263,7 @@
   grid-template-columns: auto 1fr auto;
   align-items: flex-start;
   width: 1100px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 .footer__social-list {
