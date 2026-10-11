@@ -1,5 +1,3 @@
-/* @font-face убраны — они уже подключены в fonts/fonts.css */
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
